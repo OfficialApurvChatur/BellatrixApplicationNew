@@ -1,16 +1,16 @@
 const brandConnection = {
-  aBrandID: "boilerplate",
-  bBrandName: "Boilerplate",
+  aBrandID: "bellatrix",
+  bBrandName: "Bellatrix Enterprise",
 
-  cFrontendApplicationName: "Boilerplate Frontend",
-  dAdministrationApplicationName: "Boilerplate Administration",
-  eBackendApplicationName: "Boilerplate Backend",
+  cFrontendApplicationName: "Bellatrix Frontend",
+  dAdministrationApplicationName: "Bellatrix Administration",
+  eBackendApplicationName: "Bellatrix Backend",
 
-  fFrontendApplicationURL: "https://boilerplate-frontend-v02.netlify.app",
-  gAdminApplicationURL: "https://boilerplate-admin-v02.netlify.app",
-  hBackendApplicationURL: "https://boilerplate-backend-v02.netlify.app",
+  fFrontendApplicationURL: "https://bellatrix-frontend-v02.netlify.app",
+  gAdminApplicationURL: "https://bellatrix-admin-v02.netlify.app",
+  hBackendApplicationURL: "https://bellatrix-backend-v02.netlify.app",
 
-  iEmailName: "@boilerplate.com",
+  iEmailName: "@bellatrix.com",
 
   jInstagramURL: "https://www.google.com/",
   kXURL: "https://www.google.com/",
@@ -24,7 +24,7 @@ const brandConnection = {
       : this.pBackendLocalURL;
   },
   pBackendLocalURL: "http://localhost:8000",
-  qBackendProductionURL: "https://boilerplate-backend-v02.onrender.com",
+  qBackendProductionURL: "https://bellatrix-backend-v02.onrender.com",
 
   get rFrontendBaseURL() {
     return import.meta.env.VITE_ENVIRONMENT === "Production" ? [ 
@@ -51,10 +51,10 @@ const brandConnection = {
   sFrontendLocalURL7: "http://localhost:5179",
   sFrontendLocalURL8: "http://localhost:5180",
   sFrontendLocalURL9: "http://localhost:5181",
-  tFrontendProductionURL1: "https://boilerplate-admin-v02.netlify.app",
-  tFrontendProductionURL2: "https://boilerplate-frontend-v02.netlify.app",
+  tFrontendProductionURL1: "https://bellatrix-admin-v02.netlify.app",
+  tFrontendProductionURL2: "https://bellatrix-frontend-v02.netlify.app",
 
-  uTagName: "Skip setup. Start building.",
+  uTagName: "Navigating Beyond Horizon",
 }
 
 export default brandConnection;
