@@ -55,6 +55,11 @@ const brandConnection = {
   tFrontendProductionURL2: "https://bellatrix-frontend-v02.netlify.app",
 
   uTagName: "Navigating Beyond Horizon",
+
+  vMainApplication: "Bellatrix Application",
+  vFrontendApplication: "Bellatrix Application (Frontend)",
+  vAdminApplication: "Bellatrix Application (Admin)",
+  vBackendApplication: "Bellatrix Application (Backend)",
 }
 
 export default brandConnection;
